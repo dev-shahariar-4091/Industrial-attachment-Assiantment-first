@@ -1,0 +1,181 @@
+.banner{
+ background-image: url(/Industrial-attachment-Assiantment-first/image/imge2.jpg);
+ background-size: cover;
+ height: 400px;
+ width: auto;
+}
+/* banner-hero style  */
+.banner-hero{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* banner-btn style  */
+.banner-btn{
+    margin-top:40px ;
+    margin-right: 40px;
+    
+    
+}
+
+/* banner-contain style  */
+.banner-contain{
+     background-color: blue;
+     border: 3px solid rebeccapurple;
+     cursor: pointer;
+}
+
+/* main-container style  */
+
+.main-container{
+    display: flex;
+    padding: 30px 30px;
+    gap: 50px;
+    
+}
+
+/* main-btn style  */
+
+.main-btn{
+    background-color: darkblue;
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+/* service to add a background image */
+.service-banner1{
+    position: relative;
+    background-image: url(Industrial-attachment-Assiantment-first/image/image3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    padding: 40px;
+    opacity: 0.8;
+}
+
+.service-banner1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.05); /* opacity 0.8, adjust করতে পারো */
+    z-index: 1;
+}
+
+.service-banner1 * {
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+/* service-container style  */
+.service-container{
+    display: flex;
+    /* background-color: #fff; */
+    margin: auto;
+    padding: auto;
+    justify-content: space-around;
+}
+
+
+
+/* service-card style  */
+.service-card{
+   
+  background-color: rgba(255,255,255,2); /* card visible & white */
+  border-radius: 10px;
+ box-shadow: 0 4px 8px rgba(0,0,0,0.9);
+  height: 320px;
+ width: 280px;
+ text-align: center;
+ padding: 10px;
+ margin: 10px;
+    
+}
+
+/* service-card img style  */
+.service-card img {
+height: 180px;
+width: 180px;
+object-fit: cover;
+border-radius: 10px;
+}
+
+
+
+/* sideber-opitional style  */
+.sideber-opitional{
+    display: flex;
+}
+
+
+/* sideber-pra style  */
+.sideber-pra{
+    background: white;
+    color: #000;
+    font-size: 40px;
+    margin: 50px 10px 10px 40px;
+    padding: 60px 60px;
+}
+
+/* sideber-img style  */
+.sideber-img{
+    padding: 20px 20px;
+    gap: 20px;
+}
+
+
+/* satified-client-img style  */
+ .satified-client-img{
+       background-image: url(/Industrial-attachment-Assiantment-first/image/image4.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       opacity: .8;
+ }
+/* satified-client style  */
+.satified-client{
+   
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 50px ;
+    padding: 40px 40px;
+    gap: 50px;
+}
+
+/* satified-para style  */
+
+.satified-para{
+    height: 150px;
+    width: 350px;
+    font-size: 25px;
+    color: black;
+    
+}
+
+/* section-card-container style  */
+.section-card-container{
+    display: flex;
+    margin: 30px 30px ;
+    padding: 30px 30px;
+    gap: 40px;
+    border-radius:15px ;
+}
+
+
+/* footer-container style  */
+.footer-container{
+     display: flex;
+     gap: 250px;
+     margin: 20px 20px ;
+     padding: 20px 20px ;
+}
+/* footer-contain-praent style */
+.footer-contain-praent{
+    display: grid;
+    grid-column: 3 /1fr;
+}
